@@ -1,0 +1,437 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>rifan</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:500" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script src="wb.rotate.min.js"></script>
+<script src="wwb14.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_Image2').addClass('visibility-hidden');
+   $('#wb_Image3').addClass('visibility-hidden');
+   $('#wb_Image4').addClass('visibility-hidden');
+   $('#wb_Text1').addClass('visibility-hidden');
+   $('#wb_Image5').addClass('visibility-hidden');
+   $('#wb_Text2').addClass('visibility-hidden');
+   $('#wb_Line1').addClass('visibility-hidden');
+   $('#wb_Text3').addClass('visibility-hidden');
+   $('#wb_Text4').addClass('visibility-hidden');
+   $('#Layer1').parallax();
+   function Image2Scroll()
+   {
+      var $obj = $("#wb_Image2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image2', 'animate-fade-in-down', 1000, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image2').inViewPort(true))
+   {
+      $('#wb_Image2').addClass("in-viewport");
+   }
+   Image2Scroll();
+   $(window).scroll(function(event)
+   {
+      Image2Scroll();
+   });
+   function Image3Scroll()
+   {
+      var $obj = $("#wb_Image3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image3', 'animate-fade-in-right', 200, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image3').inViewPort(true))
+   {
+      $('#wb_Image3').addClass("in-viewport");
+   }
+   Image3Scroll();
+   $(window).scroll(function(event)
+   {
+      Image3Scroll();
+   });
+   function Image4Scroll()
+   {
+      var $obj = $("#wb_Image4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image4', 'animate-fade-in-left', 1700, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image4').inViewPort(true))
+   {
+      $('#wb_Image4').addClass("in-viewport");
+   }
+   Image4Scroll();
+   $(window).scroll(function(event)
+   {
+      Image4Scroll();
+   });
+   function Image1Scroll()
+   {
+      var $obj = $("#wb_Image1");
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image1', 'animate-fade-in-down', 0, 500);
+      }
+      else
+      if ($obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+      }
+   }
+   if (!$('#wb_Image1').inViewPort(true))
+   {
+      $('#wb_Image1').addClass("in-viewport");
+   }
+   Image1Scroll();
+   $(window).scroll(function(event)
+   {
+      Image1Scroll();
+   });
+   function Text1Scroll()
+   {
+      var $obj = $("#wb_Text1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text1', 'animate-fade-in-left', 200, 1500);
+      }
+   }
+   Text1Scroll();
+   $(window).scroll(function(event)
+   {
+      Text1Scroll();
+   });
+   function Image5Scroll()
+   {
+      var $obj = $("#wb_Image5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image5', 'animate-fade-in-right', 200, 1500);
+      }
+   }
+   Image5Scroll();
+   $(window).scroll(function(event)
+   {
+      Image5Scroll();
+   });
+   function Text2Scroll()
+   {
+      var $obj = $("#wb_Text2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text2', 'animate-fade-in-left', 300, 1500);
+      }
+   }
+   Text2Scroll();
+   $(window).scroll(function(event)
+   {
+      Text2Scroll();
+   });
+   function Line1Scroll()
+   {
+      var $obj = $("#wb_Line1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Line1', 'animate-fade-in-left', 400, 3000);
+      }
+   }
+   Line1Scroll();
+   $(window).scroll(function(event)
+   {
+      Line1Scroll();
+   });
+   $("a[href*='#Bookmark1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 1000, 'swing');
+   });
+   $('#Layer7').parallax();
+   var Carousel1Opts =
+   {
+      delay: 5000,
+      duration: 1000,
+      easing: 'swing',
+      mode: 'forward-backward',
+      direction: '',
+      scalemode: 3,
+      pagination: true,
+      pagination_img_default: 'images/page_default.png',
+      pagination_img_active: 'images/page_active.png',
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   function Text3Scroll()
+   {
+      var $obj = $("#wb_Text3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text3', 'animate-fade-in-right', 500, 1000);
+      }
+   }
+   Text3Scroll();
+   $(window).scroll(function(event)
+   {
+      Text3Scroll();
+   });
+   function Text4Scroll()
+   {
+      var $obj = $("#wb_Text4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-in-right', 100, 1000);
+      }
+   }
+   Text4Scroll();
+   $(window).scroll(function(event)
+   {
+      Text4Scroll();
+   });
+   $("a[href*='#Bookmark2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark2').offset().top }, 1000, 'swing');
+   });
+   $("a[href*='#Bookmark3']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark3').offset().top }, 1000, 'swing');
+   });
+   $("a[href*='#Bookmark4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark4').offset().top }, 1000, 'swing');
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_Bookmark1" style="position:absolute;left:646px;top:774px;width:33px;height:40px;z-index:37;">
+<a id="Bookmark1" style="visibility:hidden;">&nbsp;</a>
+</div>
+<div id="Layer1" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:block;z-index:38;">
+<div id="Layer1_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Image2" style="position:absolute;left:463px;top:253px;width:183px;height:144px;z-index:5;">
+<a href="#" onmouseover="AnimateCss('wb_Image2', 'push', 0, 500);return false;"><img src="images/pertama.png" id="Image2" alt=""></a></div>
+<div id="wb_Image4" style="position:absolute;left:492px;top:420px;width:165px;height:44px;z-index:6;">
+<a href="#" onmouseover="AnimateCss('wb_Image4', 'push', 0, 500);return false;"><img src="images/ketiga.png" id="Image4" alt=""></a></div>
+<div id="wb_Image3" style="position:absolute;left:478px;top:254px;width:130px;height:223px;z-index:7;">
+<a href="#" onmouseover="AnimateCss('wb_Image3', 'push', 0, 500);return false;"><img src="images/kedua.png" id="Image3" alt=""></a></div>
+<div id="wb_Image1" style="position:absolute;left:530px;top:709px;width:40px;height:56px;z-index:8;">
+<a href="#Bookmark1" onclick="AnimateCss('wb_Image1', 'slide-out-blurred-bottom', 0, 700);return false;" onmouseover="AnimateCss('wb_Image1', 'transform-wobble', 0, 500);return false;"><img src="images/scrollicon.png" id="Image1" alt=""></a></div>
+<div id="Layer2" style="position:fixed;text-align:center;left:0;top:0;right:0;height:89px;z-index:9;">
+<div id="Layer2_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_CssMenu1" style="position:absolute;left:770px;top:43px;width:330px;height:28px;z-index:0;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="#Bookmark1" target="_self">About</a>
+</li>
+<li><a role="menuitem" href="#Bookmark2" target="_self">Gallery</a>
+</li>
+<li><a role="menuitem" href="#Bookmark3" target="_self">Contact</a>
+</li>
+</ul>
+</div>
+<div id="wb_Bookmark4" style="position:absolute;left:670px;top:0px;width:36px;height:31px;z-index:1;">
+<a id="Bookmark4" style="visibility:hidden;">&nbsp;</a>
+</div>
+<div id="wb_CssMenu4" style="position:absolute;left:125px;top:31px;width:34px;height:50px;z-index:2;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="#" target="_self">.</a>
+</li>
+</ul>
+</div>
+<div id="wb_CssMenu3" style="position:absolute;left:50px;top:34px;width:94px;height:50px;z-index:3;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="#" target="_self">ifan</a>
+</li>
+</ul>
+</div>
+<div id="wb_CssMenu2" style="position:absolute;left:20px;top:32px;width:54px;height:50px;z-index:4;">
+<ul role="menubar">
+<li class="firstmain"><a role="menuitem" href="#" target="_self">R</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+<div id="Layer3" style="position:relative;text-align:center;width:100%;height:488px;float:left;clear:left;display:block;z-index:39;">
+<div id="Layer3_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text1" style="position:absolute;left:19px;top:105px;width:520px;height:62px;z-index:10;">
+<span style="color:#000000;font-family:'Source Sans Pro';font-weight:600;font-size:24px;">Hello, my name is Mohamad Rifan Santoso,<br>a Graphic Designer based in Jakarta.</span></div>
+<div id="wb_Image5" style="position:absolute;left:793px;top:55px;width:307px;height:378px;z-index:11;">
+<a href="#" onmouseover="Animate('wb_Image5', '', '', '407', '490', '', 800, '');return false;" onmouseout="Animate('wb_Image5', '', '', '307', '378', '', 500, '');return false;"><img src="images/profil.jpg" id="Image5" alt=""></a></div>
+<div id="wb_Text2" style="position:absolute;left:19px;top:196px;width:548px;height:200px;z-index:12;">
+<span style="color:#000000;font-family:'Source Sans Pro';font-size:20px;">I currently a final year student of SMK Sasmita jaya 2, majoring in computer network engineering. My hobby is drawing and make something different than usual. Because usual is boring and no different. I have a few experiences as&nbsp; ameteur designer including web design, illustrator, video graphic, photo editor and animation. In my usual activity i'd like playing game especially FPS game and i like traveling around <strike>house</strike> jakarta. anyway who likes to read long descirption? lets scrolling down!</span></div>
+<div id="wb_Line1" style="position:absolute;left:15px;top:177px;width:465px;height:2px;z-index:13;">
+<img src="images/img0001.png" id="Line1" alt=""></div>
+<div id="wb_Text4" style="position:absolute;left:19px;top:0px;width:106px;height:48px;z-index:14;">
+<span style="color:#00807F;font-family:'Poppins';font-weight:800;font-size:27px;">About</span></div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="Layer7" style="position:relative;text-align:center;width:100%;height:405px;float:left;clear:left;display:block;z-index:40;">
+<div id="Layer7_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="Layer4" style="position:relative;text-align:center;width:100%;height:114px;float:left;clear:left;display:block;z-index:41;">
+<div id="Layer4_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text3" style="position:absolute;left:19px;top:0px;width:126px;height:48px;z-index:15;">
+<span style="color:#FBB03B;font-family:'Poppins';font-weight:800;font-size:27px;">Gallery</span></div>
+<div id="wb_Bookmark2" style="position:absolute;left:698px;top:0px;width:33px;height:30px;z-index:16;">
+<a id="Bookmark2" style="visibility:hidden;">&nbsp;</a>
+</div>
+</div>
+</div>
+<div id="wb_Carousel1" style="position:absolute;left:0px;top:2388px;width:1100px;height:624px;z-index:42;overflow:hidden;position:relative;">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame">
+<div class="innerframe">
+<div id="wb_Image6" style="position:absolute;left:1px;top:2px;width:1098px;height:617px;z-index:17;">
+<img src="images/Artboard 1-100.jpg" id="Image6" alt=""></div>
+</div>
+</div>
+<div class="frame">
+<div class="innerframe">
+<div id="wb_Image7" style="position:absolute;left:1101px;top:2px;width:1098px;height:617px;z-index:18;">
+<img src="images/Layer 7mdpi.png" id="Image7" alt=""></div>
+</div>
+</div>
+<div class="frame">
+<div class="innerframe">
+<div id="wb_Image10" style="position:absolute;left:2201px;top:0px;width:1098px;height:617px;z-index:19;">
+<img src="images/saber wallpaper mini.jpg" id="Image10" alt=""></div>
+</div>
+</div>
+<div class="frame">
+<div class="innerframe">
+<div id="wb_Image8" style="position:absolute;left:3301px;top:0px;width:1098px;height:617px;z-index:20;">
+<img src="images/tkj shadow without text.jpg" id="Image8" alt=""></div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<form name="Layer5" method="post" action="mailto:rifansantoso9@gmail.com" enctype="multipart/form-data" id="Layer5" style="position:relative;text-align:center;width:100%;height:296px;float:left;clear:left;display:block;z-index:43;">
+<div id="Layer5_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text5" style="position:absolute;left:19px;top:67px;width:699px;height:93px;z-index:21;">
+<span style="color:#FBB03B;font-family:'Poppins';font-weight:800;font-size:53px;">FEEL FREE TO </span><span style="color:#00807F;font-family:'Poppins';font-weight:800;font-size:53px;">CONTACT</span><span style="color:#FBB03B;font-family:'Poppins';font-weight:800;font-size:53px;"> ME</span></div>
+<div id="wb_Text7" style="position:absolute;left:24px;top:143px;width:254px;height:25px;z-index:22;">
+<span style="color:#000000;font-family:'Source Sans Pro';font-size:20px;">Also visit me on social media</span></div>
+<div id="wb_FontAwesomeIcon1" style="position:absolute;left:84px;top:180px;width:41px;height:41px;text-align:center;z-index:23;">
+<a href="http://www.pinterest.com/rifansant/"><div id="FontAwesomeIcon1"><i class="fa fa-pinterest-square"></i></div></a></div>
+<div id="wb_FontAwesomeIcon2" style="position:absolute;left:19px;top:180px;width:41px;height:41px;text-align:center;z-index:24;">
+<a href="https://www.facebook.com/muhammad.rifan.587/"><div id="FontAwesomeIcon2"><i class="fa fa-facebook-square"></i></div></a></div>
+<div id="wb_FontAwesomeIcon5" style="position:absolute;left:145px;top:180px;width:41px;height:41px;text-align:center;z-index:25;">
+<a href="https://www.instagram.com/rifan.snt/"><div id="FontAwesomeIcon5"><i class="fa fa-instagram"></i></div></a></div>
+<div id="wb_FontAwesomeIcon4" style="position:absolute;left:208px;top:180px;width:41px;height:41px;text-align:center;z-index:26;">
+<a href="https://steamcommunity.com/id/santken"><div id="FontAwesomeIcon4"><i class="fa fa-steam-square"></i></div></a></div>
+<div id="wb_Bookmark3" style="position:absolute;left:878px;top:0px;width:46px;height:41px;z-index:27;">
+<a id="Bookmark3" style="visibility:hidden;">&nbsp;</a>
+</div>
+<input type="text" id="Editbox1" style="position:absolute;left:722px;top:78px;width:349px;height:28px;z-index:28;" name="Editbox1" value="" spellcheck="false" placeholder="write your Email here">
+<input type="submit" id="Button1" name="" value="Submit" style="position:absolute;left:722px;top:127px;width:96px;height:25px;z-index:29;">
+</div>
+</form>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<div id="Layer6" style="position:relative;text-align:center;width:100%;height:232px;float:left;clear:left;display:block;z-index:44;">
+<div id="Layer6_Container" style="width:1100px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_FontAwesomeIcon6" style="position:absolute;left:999px;top:142px;width:72px;height:68px;text-align:center;z-index:30;">
+<a href="#Bookmark4"><div id="FontAwesomeIcon6"><i class="fa fa-chevron-circle-up"></i></div></a></div>
+<div id="wb_Text6" style="position:absolute;left:426px;top:182px;width:231px;height:50px;z-index:31;">
+<span style="color:#FFFFFF;font-family:'Source Sans Pro';font-size:20px;">your adventure ends here :)</span></div>
+</div>
+</div>
+</body>
+</html>
